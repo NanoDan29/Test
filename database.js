@@ -16,3 +16,9 @@ const pool = new Pool({
 
 
 module.exports = pool
+
+type Pizza {
+    id: Int!
+    name: String!
+    origin: String
+}
